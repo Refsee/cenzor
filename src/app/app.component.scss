@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+.container {
+  margin: 100px auto;
+  padding: 10px 15px;
+  width: 600px;
+  height: 350px;
+  background-color: lavender;
+  border-radius: 10px;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+.box-top {
+  display: flex;
+  font-weight: 700;
+}
+
+.box-center {
+  margin: 15px 0;
+}
+
+.bad-words {
+  color: brown;
+}
+
+.input-words {
+  width: 350px;
+  padding: 5px 15px;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 5px;
+
+  &:focus {
+    outline: 2px solid #d1b2ee;
+    box-shadow: 0 0 10px 1px #d1b2ee;
+  }
+}
+
+.error {
+  outline: 2px solid #eb1a2b;
+  box-shadow: 0 0 10px 1px #eb1a2b;
+}
+
+.btn {
+  margin-left: 10px;
+  padding: 5px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: #3df0c3;
+  }
+  &:active {
+    background-color: #0f8d6e;
+  }
+}
+
+.btn-add {
+  background-color: #ffd000;
+}
+.btn-reset {
+  background-color: #f03d3d;
+  color: wheat;
+}
+
+.area {
+  margin: 15px 0;
+  width: 100%;
+  height: 170px;
+  padding: 5px 10px;
+  font-size: 18px;
+  resize: none;
+}
+
+.btn-cenzor {
+  width: 100%;
+  font-size: 20px;
+  padding: 5px 0;
+  background-color: #35b85c;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: #8cdba4;
+  }
+
+  &:active {
+    background-color: #05802a;
+  }
+}
